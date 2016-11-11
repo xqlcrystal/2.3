@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:layout_gravity="center_horizontal"
+    >
+
+<AnalogClock
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="#f0f"
+        android:format12Hour="yyyy年MM月dd日 H:mma EEEE" />
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:dial="@drawable/watch"
+        android:hand_minute="@drawable/hand"/>
+</LinearLayout>
